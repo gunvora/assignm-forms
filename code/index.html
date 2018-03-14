@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Forms xxx</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+
+    <div class="background">
+      <img src="../images/reef.jpg" alt="Turtle  ......" />
+    </div>
+
+    <form action="http://httpbin.org/anything" method="post">
+
+        <div>
+          <label for="userNameField">Username</label>
+          <input type="text" name="userName" id="userNameField">
+        </div>
+
+        <div>
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" value="xxx@xxx.xx">
+        </div>
+
+        <div>
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password">
+        </div>
+
+        <div>
+          <label for="checkbox">Administrator</label>
+          <input type="checkbox" name="admin" id="checkbox" value="yes">
+        </div>
+
+        <div>
+          <label for="satisfaction">How do you rate our service?</label><br><br>
+          <input type="radio" name="satisfaction" value="no" checked>No opinion<br>
+          <input type="radio" name="satisfaction" value="good">Good<br>
+          <input type="radio" name="csatisfaction" value="bad">Bad<br>
+        </div>
+
+        <div class="button">
+          <button>Login</button>
+        </div>
+
+    </form>
+
+  </body>
+</html>
